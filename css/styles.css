@@ -172,13 +172,14 @@ body {
 }
 /* ===============Explorer directions================= */
 .explorer-direction-item {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-  padding: 24px 100px;
 }
 .explorer-direction-item-icon {
   display: block;
