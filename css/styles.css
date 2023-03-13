@@ -321,11 +321,12 @@ body {
   margin-right: var(--card-set-gap);
 }
 .customer-item {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 .customer-item:hover,
 .customer-item:focus {
@@ -334,8 +335,8 @@ body {
 .customer-item-icon {
   fill: #8e8f99;
 }
-.customer-item:hover >.customer-item-icon,
-.customer-item:focus >.customer-item-icon {
+.customer-item:hover > .customer-item-icon,
+.customer-item:focus > .customer-item-icon {
   fill: #404bbf;
 }
 /*=================FOTER================== */
@@ -389,19 +390,20 @@ body {
   display: flex;
 }
 .foter-social-link {
-  display: flex;
   margin-right: 16px;
+}
+.foter-social-item {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1) ;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-.foter-social-link:hover,
-.foter-social-link:focus {
-  background: #31d0aa;
-  opacity: 1;
+.foter-social-item:hover,
+.foter-social-item:focus {
+  background-color: #31d0aa;
 }
 .foter-social-item-icon {
   fill: #f4f4fd;
